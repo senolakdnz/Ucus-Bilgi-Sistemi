@@ -24,11 +24,17 @@ namespace ucus_bilgi_sistemi
             comboBox2.Text = comboBox1.Text;
             comboBox1.Text = label10.Text;
 
-            /* YÖN DEÐÝÞTÝRME!!!  
-             1. "To" da ki deðeri label10'a aktardýk
-             2. "From" da ki deðeri "To" deðerine aktardýk
-             3. label10'da ki deðeri "From" deðerine aktardýk
+            /* YÃ–N DEÄžÄ°STÄ°RME!!!  
+             1. "To" da ki deÄŸeri label10'a aktardÄ±k;
+             2. "From" da ki deÃ°eri "To" deÄŸerine aktardÄ±k;
+             3. label10'da ki deÄŸeri "From" deÄŸerine aktardÄ±k;
             */
+            
+            /* CHANGE DIRECTION!!!
+               1. We transferred the value in "To" to label10;
+               2. We transferred the value in "From" to "To";
+               3. We transferred the value "From" in label10;
+              */
         }
     }
 }
